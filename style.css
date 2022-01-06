@@ -1,5 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
+    padding: 0px 100px;
 }
 .first-section-h1{
     font-size: 100px;
@@ -10,6 +11,7 @@ body{
 }
 .first-section{
     display: flex;
+    gap: 50px;
     margin-bottom: 50px;
 }
 .first-section-p1{
@@ -21,7 +23,6 @@ body{
 }
 .half-width{
     width: 50%;
-    padding: 5%;
 }
 .half-width img{
     width: 100%;
@@ -46,20 +47,44 @@ body{
 .second-section-box{
     display: flex;
     margin-bottom: 50px;
-    height: 800px;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: space-around;
+    height: 500px;
+}
+.img-size{
+    height: 250px;
+    width: 250px;
+}
+.img-box{
+    padding: 50px;
+    width: auto;
+}
+.img-box h1{
+    font-weight: 900px;
+    color: rgb(116, 5, 5);
 }
 .second-section-mission{
-    padding-left: 25px;
+   
     border-radius: 20px;
     background-color: #EDF5F6;
+    max-width: 30%;
 }
 .second-section-vission{
     border-radius: 20px;
     background-color: #FFEEEE;
+    max-width: 30%;
 }
 .second-section-goals{
     border-radius: 20px;
     background-color: #FFF4D6;
+    max-width: 30%;
+}
+.third-section{
+    display: flex;
+}
+.third-section-h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+.third-sec-img{
+    width: 50px;
 }
