@@ -2,12 +2,17 @@ body{
     font-family: 'Raleway', sans-serif;
     padding: 0px 100px;
 }
+
+
+.orange-color{
+    color: #FFAD5A;
+}
+
+
+
 .first-section-h1{
     font-size: 100px;
     font-weight: 900;   
-}
-.orange-color{
-    color: #FFAD5A;
 }
 .first-section{
     display: flex;
@@ -36,6 +41,10 @@ body{
     font-weight: 700;
 
 }
+
+
+
+
 .second-section{
     margin-bottom: 250px;
 }
@@ -50,15 +59,15 @@ body{
     justify-content: space-around;
     height: 500px;
 }
-.img-size{
+.img-size1{
     height: 250px;
     width: 250px;
 }
-.img-box{
+.img-box1{
     padding: 50px;
     width: auto;
 }
-.img-box h1{
+.img-box1 h1{
     font-weight: 900px;
     color: rgb(116, 5, 5);
 }
@@ -78,10 +87,13 @@ body{
     background-color: #FFF4D6;
     max-width: 30%;
 }
+
+
+
 .third-section{
     display: flex;
     gap: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 .third-section-h1{
     font-size: 80px;
@@ -101,4 +113,83 @@ body{
     border-radius: 10px;
     color: white;
     font-weight: 700;
+}
+
+
+
+
+.fourth-section{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+.fourth-section-h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+.fourth-section-h2{
+    padding-bottom: 50px;
+}
+.fourth-sec-img{
+    height: 600px;
+    width: 600px;
+}
+
+.fifth-section{
+    margin-bottom: 250px;
+}
+.fifth-section-h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+}
+.fifth-section-box{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    height: 500px;
+}
+.img-size2{
+    height: 250px;
+    width: 250px;
+}
+.img-box2{
+    padding: 50px;
+    width: auto;
+}
+.img-box2 h1{
+    font-weight: 900px;
+    color: rgb(116, 5, 5);
+}
+.fifth-section-mission{
+   
+    border-radius: 20px;
+    background-color: #EDF5F6;
+    max-width: 30%;
+}
+.fifth-section-vission{
+    border-radius: 20px;
+    background-color: #FFEEEE;
+    max-width: 30%;
+}
+.fifth-section-goals{
+    border-radius: 20px;
+    background-color: #FFF4D6;
+    max-width: 30%;
+}
+
+
+
+.footer-section{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+.footer-h1{
+    color: white;
+    text-align: center;
+}
+.footer-h3{
+    color: white;
+    text-align: center;
 }
