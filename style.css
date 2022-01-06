@@ -80,11 +80,25 @@ body{
 }
 .third-section{
     display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
 }
 .third-section-h1{
     font-size: 80px;
     font-weight: 900;
 }
+.third-section-h2{
+    padding-bottom: 50px;
+}
 .third-sec-img{
-    width: 50px;
+    height: 600px;
+    width: 600px;
+}
+.documentation-btn{
+    text-decoration: none;
+    background-image: linear-gradient(#FF3C89, tomato);
+    padding: 20px 60px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
 }
