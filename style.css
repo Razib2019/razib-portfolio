@@ -1,15 +1,16 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-h1{
+.first-section-h1{
     font-size: 100px;
-    font-weight: 700;   
+    font-weight: 900;   
 }
-.color1{
+.orange-color{
     color: #FFAD5A;
 }
 .first-section{
     display: flex;
+    margin-bottom: 50px;
 }
 .first-section-p1{
     padding-bottom: 40px;
@@ -27,11 +28,38 @@ h1{
 }
 .hireme-btn{
     text-decoration: none;
-    /* background-color: #FF3C89; */
     background-image: linear-gradient(#FF3C89, tomato);
     padding: 20px 60px;
     border-radius: 10px;
     color: white;
     font-weight: 700;
 
+}
+.second-section{
+    margin-bottom: 250px;
+}
+.second-section-h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+}
+.second-section-box{
+    display: flex;
+    margin-bottom: 50px;
+    height: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.second-section-mission{
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: #EDF5F6;
+}
+.second-section-vission{
+    border-radius: 20px;
+    background-color: #FFEEEE;
+}
+.second-section-goals{
+    border-radius: 20px;
+    background-color: #FFF4D6;
 }
