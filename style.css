@@ -14,7 +14,7 @@ body{
     display:inline-flex;
     margin: 0px;
     justify-content: space-around;
-    padding: 100px 0px 100px 0px;
+    padding: 100px 0px;
 }
 
 .first-section-h1 p{
@@ -25,7 +25,7 @@ body{
 }
 
 .first-section{
-    padding: 0px 100px;
+    padding: 0px 150px;
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
@@ -70,7 +70,7 @@ body{
 
 .second-section{
     margin-bottom: 250px;
-    padding: 0px 100px;
+    padding: 0px 120px;
 }
 .second-section-h1{
     font-size: 80px;
@@ -118,7 +118,7 @@ body{
     display: flex;
     gap: 50px;
     margin-bottom: 200px;
-    padding: 0px 100px;
+    padding: 0px 150px;
 }
 .third-section-h1{
     font-size: 80px;
@@ -127,6 +127,14 @@ body{
 .third-section-h2{
     padding-bottom: 50px;
 }
+
+.bg-circle-img{
+    background-image: url(./mission-2022-main/images/shapes/shape-1\ 300x300.png);
+    background-repeat: no-repeat;
+    background-position-y: 2cm;
+    background-position-x: 1cm;
+}
+
 .third-sec-img{
     height: 600px;
     width: 600px;
@@ -147,7 +155,8 @@ body{
     display: flex;
     gap: 50px;
     margin-bottom: 200px;
-    padding: 0px 100px;
+    padding: 0px 150px;
+    height: 750px;
 }
 .fourth-section-h1{
     font-size: 80px;
@@ -156,19 +165,27 @@ body{
 .fourth-section-h2{
     padding-bottom: 50px;
 }
+
+.bg-circle2-img{
+    background-image: url(./mission-2022-main/images/shapes/shape-1\ 300x300.png);
+    background-repeat: no-repeat;
+    background-position-y: 11cm;
+    background-position-x: 41cm;
+}
 .fourth-sec-img{
     height: 600px;
     width: 600px;
 }
 
 .fifth-section{
-    margin-bottom: 250px;
-    padding: 0px 100px;
+    margin-bottom: 150px;
+    padding: 0px 70px;
 }
 .fifth-section-h1{
     font-size: 80px;
     font-weight: 900;
     text-align: center;
+    padding-bottom: 80px;
 }
 .fifth-section-box{
     display: flex;
